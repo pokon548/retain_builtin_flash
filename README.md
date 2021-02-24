@@ -6,7 +6,7 @@
  到 [Release](https://github.com/pokon548/retain_builtin_flash/releases) 下载最新版。
  
 ## 它能做什么？
-- 恢复 Windows 10 现已被 [KB4577586](https://support.microsoft.com/zh-cn/topic/kb4577586-%E7%94%A8%E4%BA%8E%E5%88%A0%E9%99%A4-adobe-flash-player-%E7%9A%84%E6%9B%B4%E6%96%B0-2020-%E5%B9%B4-10-%E6%9C%88-27-%E6%97%A5-931521b9-075a-ce54-b9af-ff3d5da047d5) 删除的自带的 Flash。
+- 恢复现已被 Windows 10 推送的 [KB4577586](https://support.microsoft.com/zh-cn/topic/kb4577586-%E7%94%A8%E4%BA%8E%E5%88%A0%E9%99%A4-adobe-flash-player-%E7%9A%84%E6%9B%B4%E6%96%B0-2020-%E5%B9%B4-10-%E6%9C%88-27-%E6%97%A5-931521b9-075a-ce54-b9af-ff3d5da047d5) 补丁所删除的自带 Flash。
 - 删除正常情况下删不掉的 KB4577586 补丁。
 - 阻止 Windows Update 后续推送 KB4577586（避免恢复后再被删除）。
 
