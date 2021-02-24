@@ -20,11 +20,16 @@ Windows 8.1 全系及 Server 等不在支持范围内。
 ## 一点问题 Q&A
 ### 为什么程序在阻止补丁阶段用了很长时间？
 受制于程序限制，在使用相关技术阻止（隐藏）相应 Windows Update 时，需要向微软服务器请求响应补丁信息。
+
 如果网络质量不佳，可能会导致相应长时间等待。
 
 ### 看起来这个程序不是完全开源的... 有毒嘛？
 Release 里的 exe 实际就是个压缩包。你大可采用你喜欢的解压缩软件对其解压，并进行审查。
+
 程序主体使用 ```bat``` 和 ```powershell``` 编写。内含的二进制文件也都是方便起见直接抓取到内部的。如果不放心，你可以到微软的[补丁网站](https://www.catalog.update.microsoft.com/Search.aspx?q=Adobe+Flash)下载到那些文件。
+
+### 怎么做到让 Windows Update 收不到 KB4577586？
+原理是将对应的 Update 加上 Hide 的属性。你可以在[这里](https://support.microsoft.com/zh-cn/topic/%E5%A6%82%E4%BD%95%E6%9A%82%E6%97%B6%E9%98%BB%E6%AD%A2%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F%E6%9B%B4%E6%96%B0%E5%9C%A8-windows-10-%E4%B8%AD%E9%87%8D%E6%96%B0%E5%AE%89%E8%A3%85-17df0ef3-7480-36e9-0ed9-118351398897)获得更多技术细节。
 
 ### 看起来挺丑的...
 嘛，确实。我没有很多精力写 UI，因此只有最简单的命令行界面。敬请谅解。
