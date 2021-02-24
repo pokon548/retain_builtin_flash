@@ -23,7 +23,6 @@ rem etc etc
 endlocal
 
 :good
-:Admin
 echo 正在保证系统文件的完整性...
 if exist %windir%\SysWOW64 (
  dism /online /add-package /packagepath:".\cab\Windows10.0-KB4577586-x64.cab"
