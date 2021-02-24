@@ -1,5 +1,5 @@
 # retain_builtin_flash
- 一键恢复 Windows 10 内置 Flash。绿色，安全，无广告。免 Windows Update 删除。
+ 一键恢复 Windows 10 内置 Flash。绿色，快速，安全。免 Windows Update 删除。
  
  到 [Release](https://github.com/pokon548/retain_builtin_flash/releases) 下载最新版。
  
