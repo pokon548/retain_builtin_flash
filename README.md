@@ -1,6 +1,8 @@
 # retain_builtin_flash
  一键恢复 Windows 10 内置 Flash。绿色，快速，安全。免 Windows Update 删除。
  
+ ![yX75vV.png](https://s3.ax1x.com/2021/02/24/yX75vV.png)
+ 
  到 [Release](https://github.com/pokon548/retain_builtin_flash/releases) 下载最新版。
  
 ## 它能做什么？
@@ -14,3 +16,16 @@
 Windows 10 32 或 64 位的系统。目前只在 20H2 上测试通过，其它版本未测试，但也许也能用。
 
 Windows 8.1 全系及 Server 等不在支持范围内。
+
+## 一点问题 Q&A
+### 为什么程序在阻止补丁阶段用了很长时间？
+受制于程序限制，在使用相关技术阻止（隐藏）相应 Windows Update 时，需要向微软服务器请求响应补丁信息。
+如果网络质量不佳，可能会导致相应长时间等待。
+
+### 看起来这个程序不是完全开源的... 有毒嘛？
+Release 里的 exe 实际就是个压缩包。你大可采用你喜欢的解压缩软件对其解压，并进行审查。
+程序主体使用 ```bat``` 和 ```powershell``` 编写。内含的二进制文件也都是方便起见直接抓取到内部的。如果不放心，你可以到微软的[补丁网站](https://www.catalog.update.microsoft.com/Search.aspx?q=Adobe+Flash)下载到那些文件。
+
+### 看起来挺丑的...
+嘛，确实。我没有很多精力写 UI，因此只有最简单的命令行界面。敬请谅解。
+但功能是完善的。
