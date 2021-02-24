@@ -44,7 +44,7 @@ Release 里的 exe 实际就是个压缩包。你大可采用你喜欢的解压�
 
 水平有限，写的不好，还请在 [Issue](https://github.com/pokon548/retain_builtin_flash/issues) 区留下你的看法。感谢 :)
 
-Microsoft 及 Windows 是 Microsoft Corporation 的注册商标。
+Microsoft 及 Windows 是 Microsoft Corporation 的注册商标。Flash 是 Adobe Systems Incorporated 在美国和其他国家的注册商标或商标。
 
 ## 另请参考
 [Ruffle](https://ruffle.rs/) 项目。一个用 WebAssembly 编写的 Flash 替代品。
