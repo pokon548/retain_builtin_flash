@@ -18,7 +18,7 @@ Windows 10 32 或 64 位的系统。目前只在 20H2 上测试通过，其它�
 Windows 8.1 全系及 Server 等不在支持范围内。
 
 ## 二进制分发限制
-根据微软网站的 EULA，不能重分发其二进制文件。因此，如果您想要从头构建，您需要自行到微软的[补丁网站](https://www.catalog.update.microsoft.com/Search.aspx?q=Adobe+Flash)下载缺失的二进制文件。
+根据微软网站的 EULA，不能重分发其二进制文件。因此，如果您想要从头构建，您需要自行到微软的[补丁网站](https://www.catalog.update.microsoft.com/Search.aspx?q=Adobe+Flash)下载缺失的二进制文件，并放置到相应的位置。
 Release 里的版本仅供参考。可能在没有任何担保的前提下删除或更改。
 
 ## Q&A
