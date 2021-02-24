@@ -16,7 +16,7 @@
 Windows 10 32 或 64 位的系统。目前只在 20H2 上测试通过，其它版本未测试，但也许也能用。
 Windows 8.1 全系及 Server 等不在支持范围内。
 
-## 一点问题 Q&A
+## Q&A
 ### 为什么程序在阻止补丁阶段用了很长时间？
 受制于程序限制，在使用相关技术阻止（隐藏）相应 Windows Update 时，需要向微软服务器请求响应补丁信息。
 如果网络质量不佳，可能会导致相应长时间等待。
@@ -34,5 +34,7 @@ Release 里的 exe 实际就是个压缩包。你大可采用你喜欢的解压�
 嘛，确实。我没有很多精力写 UI，因此只有最简单的命令行界面。敬请谅解。
 但功能是完善的。
 
+水平有限，写的不好，还请在 [Issue](https://github.com/pokon548/retain_builtin_flash/issues) 区留下你的看法。感谢 :)
+
 ## 另请参考
-[Ruffle](https://ruffle.rs/) 项目
+[Ruffle](https://ruffle.rs/) 项目。一个用 WebAssembly 编写的 Flash 替代品。
